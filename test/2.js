@@ -12,3 +12,4 @@ test(1,2,3, 3);
 test(-1, 0, 1, 0);
 test(10, -20, 30, 30);
 
+// to run it below, type: :! node 2.js

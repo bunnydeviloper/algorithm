@@ -9,5 +9,5 @@ const test = (testNumber, result) => {
 
 test(10,14); //true 14
 test(-30, -28); //true -28
-test(35,35); //true 35
+test(35,35); //false test (b/c not including itself)
 test(35,21); //false test

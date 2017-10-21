@@ -1,4 +1,4 @@
-const find7m = (number, i = number) => {
+const find7m = (number, i = number+1) => {
   if (i % 7 === 0) {
     return i;
   }

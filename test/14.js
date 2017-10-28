@@ -6,6 +6,6 @@ const test = (testNumber, testArray = []) => {
     console.log('Something is wrong...');
   }
 };
-test(5, [2,3]);
-test(10, [2,3,5,7]);
+test(5, [2,3]);         //wrong result
+test(10, [2,3,5,7]);    //correct result
 
